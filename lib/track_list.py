@@ -14,7 +14,6 @@ class TrackList:
         
     
     def list_of_tracks(self):
-        # Returns:
-        #   list of tracks
-        # return self._track_list
-        pass
+        if self._track_list == []:
+            raise Exception('There are no tracks in this track list')
+        return self._track_list

@@ -1,4 +1,4 @@
-# Music Listening Class Design Recipe
+sou# Music Listening Class Design Recipe
 
 Copy this into a `recipe.md` in your project and fill it out.
 
@@ -57,6 +57,23 @@ adds multiple tracks to list
 track_list = TrackList()
 track_list.add_track("Enter Sandman")
 track_list.add_track("In da Club")
+
+"""
+Given multiple tracks
+return the list of tracks
+"""
+track_list = TrackList()
+track_list.add_track("Enter Sandman")
+track_list.add_track("In da Club")
+track_list.list_of_tracks()
+
+"""
+Given an empty track list
+Return an error 'There are no tracks in this track list'
+"""
+
+track_list = TrackList()
+track_list.list_of_tracks() # Error = 'There are no tracks in this track list'
 
 ```
 
